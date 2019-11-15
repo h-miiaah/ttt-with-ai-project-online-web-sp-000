@@ -18,7 +18,7 @@ class Board
     end
 
     def position(input)
-        self.cells[input.to_i - 1]
+        cells[input.to_i - 1]
     end
 
     def full?
