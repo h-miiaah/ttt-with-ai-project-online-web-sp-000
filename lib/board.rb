@@ -23,7 +23,7 @@ class Board
 
     def full?
         cells.all? do |character|
-            if character == "X" || character == "O"}
+            if character == "X" || character == "O"
                 true
             else
                 false
