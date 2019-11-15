@@ -46,9 +46,9 @@ class Board
     end
 
     def update(input, player)
-        #  cells[input.to_i - 1] == player.token # stands for either X or O
+         cells[input.to_i - 1] == player.token # stands for either X or O
         #  or you can use this...
-        position(input) == player.token
+        # position(input) == player.token
     end
 
 
