@@ -35,7 +35,7 @@ class Board
         cells.count{|char| char == "X" || char == "O"}
     end
 
-    def taken?
+    def taken?(input)
         position(input) == "X" || position(input) == "O"
         # or you can use this...
         # !(position(input) == " " || position(input) == "")
